@@ -1,9 +1,11 @@
 mylib
 =====
 
-An OTP application
+Reproduce --cover problems.
 
-Build
------
+```
+rebar3 ct --cover
+rebar3 cover
+```
+Doesn't give proper coverage report
 
-    $ rebar3 compile
